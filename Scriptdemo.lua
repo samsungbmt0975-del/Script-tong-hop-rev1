@@ -81,20 +81,21 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs
   end
   })
 
-AddButton(Tab1o, {
+  AddButton(Tab1o, {
      Name = "Andepzai Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()
   end
   })
 
-AddButton(Tab1o, {
+  AddButton(Tab1o, {
      Name = "PMT Hub",
     Callback = function()
       loadstring(game:HttpGet("https://xhider.xyz/raw/pmtrieu04102012/PMThub"))()
   end
   })
-AddButton(Tab3o, {
+
+  AddButton(Tab3o, {
      Name = "Fly gui by chatgpt",
     Callback = function()
       local Players = game:GetService("Players")
