@@ -79,3 +79,17 @@ getgenv().ScriptAuthorSubTitle = "Author Info"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()
   end
   })
+
+AddButton(Tab1o, {
+     Name = "Andepzai Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()
+  end
+  })
+
+AddButton(Tab1o, {
+     Name = "PMT Hub",
+    Callback = function()
+      loadstring(game:HttpGet("https://xhider.xyz/raw/pmtrieu04102012/PMThub"))()
+  end
+  })
