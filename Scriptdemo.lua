@@ -66,5 +66,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/nouralddin-abdullah/ToastyHub-XD/refs/heads/main/hub-main.lua"))()
   end
   })
-  
-  
+
+  AddButton(Tab1o, {
+     Name = "Mod.DZX Hub",
+    Callback = function()
+	  -- this script created at https://lambloxfruitscript.vercel.app/
+getgenv().ScriptTitle = "Mod.DZX Hub"
+getgenv().ScriptSubTitle = "TikTok:Mod.DZX"
+getgenv().ScriptImage = "https://i.ibb.co/wZ9yTMTv/file-0000000046007209be1734a414952ac0.jpg"
+getgenv().ScriptAuthorName = "Mod.DZX"
+getgenv().ScriptAuthorSubTitle = "Author Info"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()
+  end
+  })
