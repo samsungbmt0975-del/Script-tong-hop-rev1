@@ -94,5 +94,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs
       loadstring(game:HttpGet("https://xhider.xyz/raw/pmtrieu04102012/PMThub"))()
   end
   })
-
-  
