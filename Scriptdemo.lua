@@ -32,7 +32,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Blox Fruit"})
      local Tab2o = MakeTab({Name = "Script 99 Night in the forest"})
-     local Tab3o = MakeTab({Name = "Script linh tinh "})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -47,28 +46,28 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   end
   })
   
-  AddButton(Tab1o, {
+    AddButton(Tab1o, {
      Name = "Neru Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NeroHubClub/AutoMythicFruitFinder/refs/heads/main/NeroHubFruitFinder"))()
   end
   })
   
-  AddButton(Tab1o, {
+    AddButton(Tab1o, {
      Name = "Teddy Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TeddyHub.lua"))()
   end
   })
   
-  AddButton(Tab2o, {
+    AddButton(Tab2o, {
      Name = "Toasty Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/nouralddin-abdullah/ToastyHub-XD/refs/heads/main/hub-main.lua"))()
   end
   })
 
-  AddButton(Tab1o, {
+    AddButton(Tab1o, {
      Name = "Mod.DZX Hub",
     Callback = function()
 	  -- this script created at https://lambloxfruitscript.vercel.app/
@@ -81,14 +80,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs
   end
   })
 
-  AddButton(Tab1o, {
+    AddButton(Tab1o, {
      Name = "Andepzai Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()
   end
   })
 
-  AddButton(Tab1o, {
+    AddButton(Tab1o, {
      Name = "PMT Hub",
     Callback = function()
       loadstring(game:HttpGet("https://xhider.xyz/raw/pmtrieu04102012/PMThub"))()
